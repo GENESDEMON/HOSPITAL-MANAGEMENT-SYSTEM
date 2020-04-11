@@ -1,0 +1,24 @@
+@charset "utf-8";
+#gallery{padding:40px 0;}
+#gallery h1, #gallery p, #gallery ul, #gallery a{margin:0; padding:0; list-style:none; line-height:normal;}
+#gallery li{display:inline;}
+#gallery .placeholder{display:block; float:left; width:640px; height:349px; margin:0; padding:4px; color:#666666; background-color:#F5F5F5; border:1px solid #DADADA; text-indent:-9999px;}
+#gallery a.swap:link, #gallery a.swap:visited, #gallery a.swap:hover{display:block; float:left; width:290px; height:105px; margin:0 0 7px 10px; padding:4px; color:#666666; background-color:#F5F5F5; border:1px solid #DADADA; cursor:default;}
+#gallery li.placeholder, #gallery a.swap{background:4px 4px no-repeat;}
+#gallery li.last a.swap{margin-bottom:0;}
+
+a.swap:hover{white-space:normal;}
+a.swap:link strong, a.swap:visited strong, a.swap:active strong{display:none;}
+a.swap:link span, a.swap:visited span, a.swap:active span{visibility:hidden; position:absolute; top:45px; left:5px; width:640px; height:349px;}
+a.swap:active span, a.swap:hover span, a.swap:focus span{visibility:visible;}
+a.swap:active img, a.swap:focus img{position:relative; z-index:50;}
+
+/* ----------------------------------------------Middle Content Block------------------------------------- */
+
+#content .homecontent{display:block; width:630px; margin:20px 0 0 0; padding:0;}
+#content .homecontent ul{margin:0; padding:0; list-style:none;}
+#content .homecontent li{display:block; float:left; width:300px; margin:0 30px 0 0; padding:0;}
+#content .homecontent li.last{margin-right:0;}
+#content .homecontent li p.imgholder{display:block; width:286px; height:100px; margin:0 0 15px 0; padding:6px; color:#666666; background-color:#F7F7F7; border:1px solid #CCCCCC;}
+#content .homecontent li h2{margin:0; padding:0 0 8px 0; font-size:13px; font-weight:bold; color:#666666; background-color:#FFFFFF; line-height:normal; border-bottom:1px dashed #CCCCCC;}
+#content .homecontent p.readmore{display:block; width:300px; font-weight:bold; text-align:right; line-height:normal;}

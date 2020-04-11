@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+form, fieldset, legend{margin:0; padding:0; border:none;}
+legend{display:none;}
+
+/* ----------------------------------------------Search Form------------------------------------- */
+
+#search{display:block; width:285px; position:absolute; top:10px; right:0;}
+#search input{display:block; width:229px; margin:0; padding:5px; color:#FFFFFF; background-color:#1C3451; border:1px solid #4A80C1; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px;}
+#search input#go{display:block; float:right; width:auto; height:auto; margin:0; padding:4px;}
+
+/* ----------------------------------------------Forms in Content Area------------------------------------- */
+
+#container #respond{display:block; width:100%;}
+#container #respond input{width:170px; padding:2px; border:1px solid #CCCCCC; margin:5px 5px 0 0;}
+#container #respond textarea{width:98%; border:1px solid #CCCCCC; padding:2px; overflow:auto;}
+#container #respond p{margin:5px 0;}
+#container #respond #submit, #container #respond #reset{margin:0; padding:5px; color:#666666; background-color:#F7F7F7; border:1px solid #CCCCCC;}
+
+/* ----------------------------------------------Contact Form in Footer------------------------------------- */
+
+#contactform form{margin:0; padding:0; border:none; line-height:normal;}
+#contactform label{display:inline; width:170px; float:left; margin:0 0 12px 0; padding:0;}
+#contactform label.margin{margin-left:10px;}
+#contactform label input, #contactform label textarea{display:block; width:162px; margin:5px 0; padding:3px; color:#000000; background-color:#F7F7F7; border:1px solid #CCCCCC;}
+#contactform label textarea{display:block; width:342px; overflow:auto;}
+#contactform p{display:block; width:350px; margin:0; padding:0; clear:both;}
+#contactform p input{padding:5px 10px; color:#666666; background-color:#F7F7F7; border:1px solid #CCCCCC;}
